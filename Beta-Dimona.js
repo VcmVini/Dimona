@@ -1,17 +1,10 @@
 function toggleMenu() {
     var menu = document.getElementById('menu')
     var display = menu.style.display
-    var visible
 
-    if( display == 'block') {
-        visible = 'none'
-    }
+    // teste
 
-    if(display != 'block') {
-        visible = 'block'
-    }
-
-    // var visible = display == 'block' ? 'none' : 'block'
+    var visible = display == 'block' ? 'none' : 'block'
     
     menu.style.display = visible
 }
